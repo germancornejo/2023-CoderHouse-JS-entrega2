@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* 0 --- RESETEO DE CSS */
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+body {
+  font-size: 100%;
+  list-style-type: none;
+  font-family: poppins;
+  font-size: 18px;
+  color: black; }
+
+/* --- corrección de scroll horizontal heredado de Bootstrap */
+.col-sm {
+  margin-right: 0;
+  margin-left: 0; }
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.container {
+  margin-right: 0;
+  margin-left: 0; }
+
+
+
+/* --- Estilos de la página ---/
+
+
